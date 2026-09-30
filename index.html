@@ -2,29 +2,137 @@
 <html lang="en-us">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Megan Benson - About Me</title>
+    <title>Megan Benson - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Megan Benson</h1>
-            <img src="me.jpg"
-            alt="Megan Benson"
-            width="200">
+        <img src="me.jpg" alt="Megan Benson" class="profile-picture">
 
-        <p>
-            I'm a computer science major at Elizabethtown College.
-            I enjoy programming, swimming, and spending time with my pets.
-        </p>
+        <div>
+            <h1>Megan Benson</h1>
+            <h3>Computer Science Student</h3>
+
+            <p>
+                I am a Computer Science major at Elizabethtown College graduating
+                in Spring 2027. I enjoy working with technology, solving problems,
+                and creating projects that can be useful in the real world.
+            </p>
+        </div>
     </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#courses">Coursework</a>
+    </nav>
 
     <main>
 
-        <h2>My Classes this Semester</h2>
+        <section id="about">
+            <h2>About Me</h2>
 
-            <table border="1">
+            <p>
+                I am currently a senior at <strong>Elizabethtown College</strong>
+                studying Computer Science. I have experience with programming,
+                web development, databases, automation, and working on team-based
+                software projects.
+            </p>
+
+            <p>
+                Outside of computer science, I am a member of the Elizabethtown
+                College Women's Swim Team. Being a student-athlete has helped me
+                develop strong <em>communication, teamwork, and time management</em>
+                skills.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML and CSS</li>
+                <li>SQL and MySQL</li>
+                <li>C</li>
+                <li>Git and GitHub</li>
+                <li>Power Automate</li>
+                <li>Power Apps</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <article>
+                <h3>Software Development Intern - LaFrance Corporation</h3>
+
+                <p>
+                    During my internship at LaFrance Corporation, I worked with
+                    automation and business applications to improve internal
+                    processes.
+                </p>
+
+                <ul>
+                    <li>Created automated workflows using Microsoft Power Automate.</li>
+                    <li>Worked with Power Apps, SharePoint, Dataverse, and Office Scripts.</li>
+                    <li>Helped automate reports and data management processes.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>SCAD Scheduling System</h3>
+                <p>
+                    Working with a team to develop a web application that manages
+                    presentation submissions and automatically creates schedules
+                    for Elizabethtown College's Scholarship and Creative Arts Day.
+                </p>
+            </article>
+
+            <article>
+                <h3>JayPantry</h3>
+                <p>
+                    Developed a web application for managing food pantry inventory,
+                    user access, barcode printing, and product checkout using
+                    PHP, MySQL, HTML, and CSS.
+                </p>
+            </article>
+
+            <article>
+                <h3>Dynamic Pricing Project</h3>
+                <p>
+                    Built a Random Forest model in Python using Walmart sales data
+                    to predict pricing changes. The project included data
+                    preprocessing, feature engineering, model training, and a
+                    Flask web application.
+                </p>
+            </article>
+
+            <article>
+                <h3>Etown Events Calendar</h3>
+                <p>
+                    Working with a team to create a website that allows students
+                    to easily find events happening around the Elizabethtown
+                    College campus.
+                </p>
+            </article>
+        </section>
+
+        <section id="courses">
+            <h2>Relevant Coursework</h2>
+
+            <table>
                 <thead>
                     <tr>
                         <th>Course</th>
@@ -34,8 +142,8 @@
 
                 <tbody>
                     <tr>
-                        <td>BA 165</td>
-                        <td>Personal Financial Planning</td>
+                        <td>CS 250</td>
+                        <td>Foundations of AI and Data Science</td>
                     </tr>
 
                     <tr>
@@ -44,99 +152,35 @@
                     </tr>
 
                     <tr>
+                        <td>CS 341</td>
+                        <td>Software Engineering</td>
+                    </tr>
+
+                    <tr>
                         <td>CS 401</td>
                         <td>Capstone Project in Computing</td>
                     </tr>
-
-                    <tr>
-                        <td>CS 421</td>
-                        <td>Programming Design and Implementation</td>
-                    </tr>
                 </tbody>
             </table>
+        </section>
 
-        <h2>My Favorite Things</h2>
-                    <table border="1">
-                <tbody>
-                    <tr>
-                        <th>Movies</th>
-                        <th>The Notebook, The Hunger Games, Hercules</th>
-                    </tr>
-                    <tr>
-                        <td>TV Shows</td>
-                        <td>Tell Me Lies, Normal People, Parks and Rec, The Good Place</td>
-                    </tr>
+        <section id="interests">
+            <h2>Outside of Computer Science</h2>
 
-                    <tr>
-                        <td>Skills</td>
-                        <td>I love cooking, lifting, swimming, and traveling! This summer I got into <a href="https://rivathletics.com" target="_blank">CrossFit!</a></td>
-                    </tr>
+            <p>
+                When I'm not working on school or programming projects, I enjoy
+                swimming, lifting, cooking, traveling, and spending time with my pets.
+            </p>
 
-                </tbody>
-            </table>
-
-        <h2>Things That Make Me Happy</h2>
-
-        <table>
-            <tr>
-                <td>
-                    <img src="swimming.JPG"
-                         alt="Swimming"
-                         width="200">
-                </td>
-
-                <td>
-                    Swimming makes me happy!
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="cats.png"
-                        alt="My cats"
-                        width="200">
-
-                    <img src="dog.png"
-                        alt="My dog"
-                        width="200">
-                </td>
-
-                <td>
-                    I love spending time with my pets!
-                </td>
-            </tr>
-        </table>
-        <h2>My moods!</h2>
-
-            <table>
-                <tr>
-                    <td>
-                        <img src="happy.gif"
-                            alt="Happy"
-                            width="200">
-                    </td>
-
-                    <td>
-                        Happy!
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <img src="sad.gif"
-                            alt="Sad"
-                            width="200">
-                    </td>
-
-                    <td>
-                        Sad!
-                    </td>
-                </tr>
-            </table>
+            <img src="swimming.JPG"
+                 alt="Megan swimming for Elizabethtown College"
+                 class="swimming-picture">
+        </section>
 
     </main>
 
     <footer>
-        <p>Megan's Website </p>
+        <p>&copy; 2026 Megan Benson</p>
     </footer>
 
 </body>
